@@ -3,11 +3,11 @@ function playSelectedSong(songId) {
     const audioSource = document.getElementById('audioSource');
 
     if (songId === 'song1') {
-        audioSource.src = 'https://example.com/music/song1.mp3';  // Yeni bağlantı
+        audioSource.src = 'https://example.com/music/song1.mp3'; 
     } else if (songId === 'song2') {
-        audioSource.src = 'https://example.com/music/song2.mp3';  // Yeni bağlantı
+        audioSource.src = 'https://example.com/music/song2.mp3'; 
     } else if (songId === 'song3') {
-        audioSource.src = 'https://example.com/music/song3.mp3';  // Yeni bağlantı
+        audioSource.src = 'https://example.com/music/song3.mp3'; 
     } else {
         return;
     }
