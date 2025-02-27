@@ -12,7 +12,7 @@ function playSelectedSong(songId) {
         return;
     }
 
-    audioElement.load();  // Load the chosen song
-    audioElement.play();  // Start playing the selected track
+    audioElement.load(); 
+    audioElement.play(); 
 }
 
