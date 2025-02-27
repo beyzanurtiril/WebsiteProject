@@ -1,0 +1,18 @@
+function playSelectedSong(songId) {
+    const audioElement = document.getElementById('audioElement');
+    const audioSource = document.getElementById('audioSource');
+
+    if (songId === 'song1') {
+        audioSource.src = 'https://example.com/music/song1.mp3';  // Yeni bağlantı
+    } else if (songId === 'song2') {
+        audioSource.src = 'https://example.com/music/song2.mp3';  // Yeni bağlantı
+    } else if (songId === 'song3') {
+        audioSource.src = 'https://example.com/music/song3.mp3';  // Yeni bağlantı
+    } else {
+        return;
+    }
+
+    audioElement.load();  // Load the chosen song
+    audioElement.play();  // Start playing the selected track
+}
+
